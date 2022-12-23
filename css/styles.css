@@ -1,0 +1,154 @@
+#title,
+.icon:hover,
+#cta {
+    background-color: #ff4c68;
+
+}
+
+h1 {
+    font-size: 45px;
+    line-height: 1.5;
+    color: white;
+    padding-top: 50px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1,
+h2,
+h3, #cta {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    /*esto es para ponerlo en  negrita*/
+    color: white;
+}
+
+.nav-link {
+    margin: 0 18px;
+    font-size: 20px;
+    color: white;
+}
+
+.downloadButton {
+    margin: 5% 3% 5% 0;
+}
+
+/* IMAGEN */
+
+.div-padre-Imagen {
+    position: relative;
+}
+
+.dogImage {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 25px;
+}
+
+/* FEATURES */
+
+#features {
+    background-color: #ffffff;
+    position: relative;
+    /* no hace falta añadir el z-index xq en el html tengo primero el title y luego el features, si fuera al revés, sí me haría falta el z-index */
+    z-index: 1;
+
+}
+
+.feature-text,
+p {
+    color: #8f8f8f;
+}
+
+.feature-div,
+#pricing,
+#footer, #cta {
+    text-align: center;
+    padding: 7% 15%;
+
+}
+
+.carousel-item, #cta {
+    color: white;
+    padding: 7% 15%;
+
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+
+}
+
+#testimonials,
+#press {
+    background-color: #ef8172;
+    text-align: center;
+
+}
+
+/*le he dado un class al perro para poder reducir el tamaño de la foto del golden y ponerla redonda con border-radious 100%*/
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+
+#press {
+    padding-bottom: 20px;
+
+}
+
+.sponsor {
+    width: 15%;
+    margin: 20px;
+    /*no hace falta darle a los 4 lados, con uno es suficiente, es arriba abajo iz dere*/
+}
+
+.button-pricing {
+    width: 90%;
+}
+
+.card-pricing {
+    margin: 30px 10px;
+}
+
+/*SECTION CTA*/
+
+
+.socialmedia {
+    margin: 20px;
+}
+
+@media (max-width:1040px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .dogImage {
+        transform: rotate(0);
+        position: static;
+
+    }
+}
